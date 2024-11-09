@@ -1,18 +1,4 @@
-<!-- <div class="container">
-    <a routerLink="/reservas/nova">Criar nova reserva</a>
-    <div *ngFor="let reserva of reservas" class="card">
-        <td>{{ reserva.title }}</td>
-        <td>{{ reserva.where }}</td>
-        <td>{{ reserva.price }}</td>
-        <td>{{ reserva.category }}</td>
-        <td><img *ngIf="reserva.image" [src]="reserva.image" alt="Imagem da reserva" width="100px" /></td>
-        <button (click)="deleteReserva(reserva.id)">Delete</button>
-        <a [routerLink]="['/reservas/editar', reserva.id]">Edit</a>
-        <hr>
-    </div>
-</div> -->
 
-<!-- ================= -->
 <div class="container">
     <div class="cardDiv">
         <div *ngFor="let reserva of reservas" class="card">
